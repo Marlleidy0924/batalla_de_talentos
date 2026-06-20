@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bailes, lectura y ambiente</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero" id="inicio">
+    <nav class="topbar" aria-label="Navegación principal">
+      <a href="#inicio" class="brand">Lectura en Movimiento</a>
+      <div class="navlinks">
+        <a href="#bailes">Bailes</a>
+        <a href="#lectura">Lectura</a>
+        <a href="#galeria">Galería</a>
+        <a href="#videos">Videos</a>
+      </div>
+    </nav>
+
+    <div class="hero-media">
+      <img src="assets/grupo-coreografia.png" alt="Grupo bailando frente al público">
+    </div>
+
+    <section class="hero-copy">
+      <p class="kicker">Evento, ritmo y cero pena</p>
+      <h1>Bailes, lectura y un ambiente que no se queda quieto</h1>
+      <p>
+        Bienvenidos a esta mini página donde hablamos de baile, lectura y de ese momento exacto
+        en el que alguien dice "yo no bailo" y cinco minutos después está haciendo pasos prohibidos.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="#galeria">Ver la galería</a>
+        <a class="button ghost" href="#videos">Poner videos</a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="intro-band">
+      <div>
+        <span class="mini-label">La vibra</span>
+        <h2>Esto fue más que una presentación</h2>
+      </div>
+      <p>
+        Fue de esos encuentros donde hay público grabando, gente aplaudiendo, bailarines dándolo todo
+        y una energía que decía: "si se cae el paso, se improvisa con actitud".
+      </p>
+    </section>
+
+    <section class="split-section" id="bailes">
+      <div class="text-block">
+        <span class="mini-label">Bailes</span>
+        <h2>Cuando el cuerpo entiende antes que la cabeza</h2>
+        <p>
+          El baile tiene algo mágico: no necesita explicar demasiado. Una mirada, un giro, una pausa
+          dramática y ya todo el mundo está pendiente. Aquí hubo pasos fuertes, trabajo en equipo,
+          parejas, grupos y momentos de "uy, ese final estuvo de película".
+        </p>
+        <p>
+          Además, bailar frente a tanta gente no es cualquier cosa. Hay que tener coordinación,
+          memoria, confianza y una cara de "sí, esto estaba planeado" incluso cuando el zapato decide
+          vivir su propia aventura.
+        </p>
+      </div>
+      <div class="image-stack" aria-label="Fotos destacadas de baile">
+        <img src="assets/grupo-chaquetas.png" alt="Grupo con chaquetas negras en escena">
+        <img src="assets/pareja-rosa.png" alt="Pareja de baile posando en el escenario">
+      </div>
+    </section>
+
+    <section class="quote-band">
+      <p>
+        "Leer te mueve la mente; bailar te mueve todo lo demás. Y si mezclas los dos, mínimo terminas
+        con cultura y dolorcito en las piernas."
+      </p>
+    </section>
+
+    <section class="split-section reverse" id="lectura">
+      <div class="text-block">
+        <span class="mini-label">Lectura</span>
+        <h2>La lectura también tiene ritmo</h2>
+        <p>
+          Leer no es solo sentarse serio como estatua de biblioteca. Leer también es imaginar escenas,
+          escuchar voces en la cabeza de los personajes y meterse tanto en una historia que alguien te
+          habla y uno responde: "ajá", sin haber escuchado absolutamente nada.
+        </p>
+        <p>
+          Así como un baile cuenta una historia con movimientos, un texto lo hace con palabras.
+          Los dos necesitan emoción, pausas, intención y un poquito de drama, porque sin drama la vida
+          sería una diapositiva en blanco.
+        </p>
+      </div>
+      <div class="reading-panel">
+        <h3>Mini lectura para entrar en ambiente</h3>
+        <p>
+          En el escenario, cada paso parecía una frase. Algunos movimientos eran punto y coma,
+          otros eran signos de exclamación, y el público era ese lector emocionado que no quiere que
+          la página termine.
+        </p>
+        <button class="button primary" id="jokeButton" type="button">Tírame un chiste</button>
+        <p class="joke" id="jokeText">Presiona el botón. Prometo que el chiste intenta bailar.</p>
+      </div>
+    </section>
+
+    <section class="gallery-section" id="galeria">
+      <div class="section-heading">
+        <span class="mini-label">Galería</span>
+        <h2>Momentos que quedaron para mirar dos veces</h2>
+        <p>Haz clic en una foto para verla grande. Sí, aquí también se vale decir "esa quedó brutal".</p>
+      </div>
+      <div class="gallery-grid">
+        <button class="photo-card" type="button" data-full="assets/entrada.png">
+          <img src="assets/entrada.png" alt="Pantalla del evento y público reunido">
+          <span>Inicio con pantalla</span>
+        </button>
+        <button class="photo-card wide" type="button" data-full="assets/grupo-chaquetas.png">
+          <img src="assets/grupo-chaquetas.png" alt="Grupo de bailarinas con chaquetas">
+          <span>Entrada con actitud</span>
+        </button>
+        <button class="photo-card wide" type="button" data-full="assets/grupo-coreografia.png">
+          <img src="assets/grupo-coreografia.png" alt="Coreografía grupal frente al público">
+          <span>Coreografía grupal</span>
+        </button>
+        <button class="photo-card" type="button" data-full="assets/duo-carga.png">
+          <img src="assets/duo-carga.png" alt="Dúo realizando una cargada">
+          <span>Momento de dúo</span>
+        </button>
+        <button class="photo-card" type="button" data-full="assets/duo-rojo.png">
+          <img src="assets/duo-rojo.png" alt="Dúo con camisetas rojas bailando">
+          <span>Flow rojo</span>
+        </button>
+        <button class="photo-card" type="button" data-full="assets/pose-rojo.png">
+          <img src="assets/pose-rojo.png" alt="Pose teatral de dos bailarines en rojo">
+          <span>Pose dramática</span>
+        </button>
+        <button class="photo-card" type="button" data-full="assets/pareja-rosa.png">
+          <img src="assets/pareja-rosa.png" alt="Pareja con vestuario rosado">
+          <span>Pareja elegante</span>
+        </button>
+        <button class="photo-card" type="button" data-full="assets/solo-baile.png">
+          <img src="assets/solo-baile.png" alt="Bailarina presentándose ante el público">
+          <span>Solo con energía</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="video-section" id="videos">
+      <div class="section-heading">
+        <span class="mini-label">Videos</span>
+        <h2>Para revivirlo sin pedirle memoria al celular</h2>
+        <p>Dale play y disfruta. Volumen recomendado: el suficiente para que la sala se sienta viva.</p>
+      </div>
+      <div class="video-grid">
+        <article>
+          <video controls preload="metadata" src="https://res.cloudinary.com/dodlhti7d/video/upload/v1781928995/WhatsApp_Video_2026-06-16_at_10.11.43_PM_fty1ye.mp4"></video>
+          <h3>Video 1</h3>
+          <p>Una probadita del ambiente, con ese toque de "todos grabando porque esto hay que subirlo".</p>
+        </article>
+        <article>
+          <video controls preload="metadata" src="https://res.cloudinary.com/dodlhti7d/video/upload/v1781929047/WhatsApp_Video_2026-06-16_at_10.11.39_PM_i9jvej.mp4"></video>
+          <h3>Video 2</h3>
+          <p>Más movimiento, más público y más razones para decir que el evento estuvo encendido.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="final-band">
+      <h2>Conclusión rápida, sin discurso eterno</h2>
+      <p>
+        Bailar, leer y compartir son formas distintas de contar lo que sentimos. Unos usan pasos,
+        otros palabras, otros aplausos. Lo importante es que todos terminamos metidos en la historia.
+      </p>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="close" id="closeLightbox" type="button" aria-label="Cerrar imagen">×</button>
+    <img id="lightboxImage" src="" alt="">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
